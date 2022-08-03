@@ -16,5 +16,10 @@ namespace TicTacToe1._1
         {
             InitializeComponent();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
