@@ -28,6 +28,30 @@ namespace TicTacToe1._1
             else
                 b.Text = "y";
             turn = !turn;
+            //butona tekrar
+            b.Enabled = false;
+         
+            bool winner = false;
+            //satırlar
+            if ((a1.Text == a2.Text) && (a2.Text == a3.Text)&&(!a1.Enabled)) 
+                winner = true;
+            else if ((b1.Text == b2.Text) && (b2.Text == b3.Text) && (!b1.Enabled)) 
+                winner = true;
+            else if ((c1.Text == c2.Text) && (c2.Text == c3.Text) && (!c1.Enabled)) 
+                winner = true;
+            
+
+
+            if (winner)
+            {
+                string winner_text = "";
+                if (turn) 
+                winner_text = "Y";
+                else
+                    winner_text = "X";
+                label1.Text="Winner"+winner_text;
+            }
         }
+          
     }
 }
