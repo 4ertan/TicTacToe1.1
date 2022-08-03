@@ -39,7 +39,20 @@ namespace TicTacToe1._1
                 winner = true;
             else if ((c1.Text == c2.Text) && (c2.Text == c3.Text) && (!c1.Enabled)) 
                 winner = true;
+            //sütun
+            if ((a1.Text == b1.Text) && (b1.Text == c1.Text) && (!a1.Enabled))
+                winner = true;
+            else if ((a2.Text == b2.Text) && (b2.Text == c2.Text) && (!a2.Enabled))
+                winner = true;
+            else if ((a3.Text == b3.Text) && (b3.Text == c3.Text) && (!a3.Enabled))
+                winner = true;
+            //çapraz
+            if ((a1.Text == b2.Text) && (b2.Text == c3.Text) && (!a1.Enabled))
+                winner = true;
+            else if ((a3.Text == b2.Text) && (b2.Text == c1.Text) && (!a3.Enabled))
+                winner = true;
             
+
 
 
             if (winner)
