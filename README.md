@@ -1,3 +1,4 @@
 # TicTacToe1.1!
 Screenshot
-(https://user-images.githubusercontent.com/47614414/182626909-1f9a1811-be42-4724-99cd-2d49bc37ef0e.PNG)
+
+![Ek](https://user-images.githubusercontent.com/47614414/182627294-4b32306f-38a4-420d-8a2d-5733cd742886.PNG)
